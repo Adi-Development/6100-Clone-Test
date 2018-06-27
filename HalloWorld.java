@@ -48,10 +48,10 @@ public class HalloWorld {
         Scanner readnum = new Scanner(System.in);
 
         while (true) {
-            System.out.println("enter a number between 1-9: ");
+            System.out.println("Enter a number between 1-1000: ");
             n = readnum.nextInt();
-            if ((n > 0) && (n < 9)) {
-                System.out.println("you chose: " + n);
+            if ((n > 0) && (n < 1000)) {
+                System.out.println("You have chosen: " + n);
                 break;
             } else {}
         }
@@ -60,12 +60,12 @@ public class HalloWorld {
         // This part is pure shit!
         for (int ennumerate : numbers) {
             if ((n % 2) == 0) {
-                System.out.println("the number is even! " + n);
+                System.out.println("The number is even! " + n);
                 while (n != ennumerate) {
                     n++;
                 }
             } else {
-                System.out.println("the number is odd " + n);
+                System.out.println("The number is odd " + n);
                 while (n != ennumerate) {
                     n++;
                 }
